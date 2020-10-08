@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="170dp"
+            android:gravity="center"
+            android:text="Huynh Thanh Xuyen - 1811505310354 - lớp chiều thứ 5"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="20dp"
+            app:layout_constraintVertical_bias="0.252" />
+
+        <ImageView
+            android:layout_width="173dp"
+            android:layout_height="171dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/hinh_anh_mat_trang_1" />
+
+        <RatingBar
+            android:id="@+id/ratingBar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="220dp"
+
+            />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="280dp"
+            android:background="@drawable/duongvientron"
+            android:text="Gửi đánh giá" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="380dp"
+            android:text="Nội dung hay"
+            android:textSize="18dp"
+            android:textColor="#213C02"/>
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="420dp"
+            android:text="Hình ảnh đẹp"
+            android:textSize="18dp"
+            android:textColor="#213C02"/>
+
+
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="460dp"
+            android:text="Không hay"
+            android:textSize="18dp"
+            android:textColor="#213C02"/>
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="500dp"
+            android:text="Tệ"
+            android:textColor="#213C02"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="192dp"
+            android:layout_height="55dp"
+            android:layout_below="@id/button2"
+            android:layout_marginTop="-263dp"
+            android:gravity="center"
+            android:text="Nhận xét"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gửi"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="550dp"
+            android:textColor="#213C02"
+            android:background="#F6E071"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
